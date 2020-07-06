@@ -1,14 +1,38 @@
-* {
+body {
     width: 900px;
     margin: auto;
 }
 
 header {
-    margin: 50px 0 25px 0;
+    margin: 50px 0 12.5px 0;
     background-color: aqua;
+}
+
+#headerDiv {
     padding: 50px;
 }
 
-header h1 {
+#headerDiv h1 {
     text-align: center;
 }
+
+main {
+    margin: 12.50px 0 25px 0;
+    background-color: palevioletred;
+}
+
+#instructionDiv {
+    padding: 25px;
+}
+
+#instructionDiv h2 {
+    text-align: center;
+}
+
+#instructionDiv input {
+    margin: 0 0 0 200px;
+    width: 300px;
+    height: 30px;
+}
+
+
