@@ -11,7 +11,7 @@ document.querySelector('form.picForm').addEventListener('submit', function (e) {
 
     const pictures = picPath + picChoice;
 
-    console.log(pictures); 
+    console.log(picChoice); 
 
     showPics(pictures);
 });
