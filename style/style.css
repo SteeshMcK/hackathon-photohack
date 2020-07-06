@@ -20,6 +20,7 @@ header {
 
 #headerDiv h1 {
     text-align: center;
+    font-size: 3em;
 }
 
 main {
@@ -33,10 +34,15 @@ main {
 
 #instructionDiv h2 {
     text-align: center;
+    padding-bottom: 15px;
+    font-size: 2.25em;
+}
+
+.picForm {
+    margin: 0 0 0 200px;
 }
 
 #picSubject {
-    margin: 0 0 0 200px;
     width: 300px;
     height: 30px;
 }
@@ -47,15 +53,18 @@ main {
 }
 
 .picCard {
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    border-radius: 10px;
     margin: auto;
     text-align: center;
     overflow: hidden;
 }
 
+img {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
 h3 {
     font-size: 2em;
+    padding: 15px;
 }
 
 
