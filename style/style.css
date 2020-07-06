@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 body {
     width: 900px;
     margin: auto;
@@ -29,10 +35,27 @@ main {
     text-align: center;
 }
 
-#instructionDiv input {
+#picSubject {
     margin: 0 0 0 200px;
     width: 300px;
     height: 30px;
+}
+
+#submitButton {
+    height: 30px;
+    width: 100px;
+}
+
+.picCard {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+h3 {
+    font-size: 2em;
 }
 
 
